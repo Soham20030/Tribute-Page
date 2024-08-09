@@ -1,0 +1,230 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: url(./images/The\ Last\ Day\ Of\ Pompeii\ 1.svg);
+}
+
+.main_rect {
+    background-image: url(./images/Main_Rectangle.svg);
+    width:75%;
+    margin-left: 13%;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.top-section p {
+    color: #C2B280;
+    font-size: 18px;
+    font-weight: 600; 
+    font-style: italic;
+}
+
+.main_rect .Quote {
+    margin-bottom: -15px;
+}
+
+.main_rect .Book1 {
+    margin-left: 28%;
+}
+
+.main_rect .Book2 {
+    margin-left: 550px;
+}
+
+.main_rect .Book3 {
+    margin-left: 40%;
+}
+
+.quo {
+    margin-top: 50px;
+}
+
+.top-section {
+    display: flex;
+    gap: 25px;
+}
+
+.first-item {
+    color: #C2B280;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.68px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+
+.second-item {
+    color: #C2B280;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.68px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+
+.third-item {
+    color: #C2B280;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.68px;
+    margin-top: 40px;
+}
+
+
+.Inner-para {
+    color: #C2B280;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 121.4%;
+    text-align: justify;
+}
+
+.Inner-second-item {
+    color: #C2B280;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.68px;
+    text-decoration: underline;
+    padding-top: 12px;
+}
+
+.Second-Inner-para {
+    color: #C2B280;
+    font-size: 22px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 121.4%;
+}
+
+.Inner-third-item {
+    color: #C2B280;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.68px;
+    text-decoration: underline;
+    padding-top: 12px;
+}
+
+.Third-Inner-para {
+    color: #C2B280;
+    font-size: 22px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 121.4%;
+}
+
+.Inner-fourth-item {
+    color: #C2B280;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.68px;
+    text-decoration: underline;
+    padding-top: 12px
+}
+
+.Fourth-Inner-para {
+    color: #C2B280;
+    font-size: 22px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 121.4%;
+}
+
+.second-list {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+    .main_rect {
+        margin-left: 5%;
+    }
+
+    .top-section {
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_rect .Book2 {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+
+    .Q2 {
+        margin-top: 50px;
+    }
+    .Q1 {
+        margin-top: -20px;
+    }
+    .top-section p {
+        font-size: 16px;
+    }
+
+    .Book {
+        font-size: 14px !important;
+    }
+
+    .quo {
+        margin-left: 50px;
+    }
+
+    .Inner-para {
+        font-size: 16px;
+    }
+
+    .first-item {
+        font-size: 23px;
+    }
+
+    .second-item {
+        font-size: 23px;
+    }
+
+    .third-item {
+        font-size: 23px;
+    }
+
+    .Inner-second-item {
+        font-size: 18px;
+    }
+
+    .Inner-third-item {
+        font-size: 18px;
+    }
+
+    .Inner-fourth-item {
+        font-size: 18px;
+    }
+
+    .Second-Inner-para {
+        font-size: 16px;
+        line-height: normal;
+        
+    }
+
+    .Third-Inner-para {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .Fourth-Inner-para {
+        font-size: 16px;
+        line-height: normal;
+    }
+}
